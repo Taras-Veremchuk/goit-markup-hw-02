@@ -1,0 +1,78 @@
+/* другорядний колір тексту #212121 */
+/* основний колір тексту #757575; */
+/* Футер color: rgba(255, 255, 255, 0.6); */
+/* Білий   color: #FFFFFF; */
+/* Акцент color: #2196F3; */
+/* body background: #F5F5F5; */
+body{
+    background-color: #F5F5F5;
+    color: #757575;
+}
+.header{
+    background-color: #FFFFFF;
+}
+
+/* navigation*/
+.nav-list .link.current{
+    color: #2196F3;
+}
+.list {
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/* logo */
+.logo{
+color: #000000;
+}
+.logo> span{
+    color: #2196F3;
+}
+/* logo */
+.nav-list .link {
+    color: #212121;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: #2196F3;
+    cursor: pointer;
+}
+/* contact-list */
+.contact-list .link{
+    color: #757575;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196F3;
+    cursor: pointer;
+}
+/* main */
+/* hero */
+.hero{
+    background-color: #2F303A;
+}
+.hero-title{
+color: #FFFFFF;
+}
+.hero-button{
+color: #FFFFFF;
+background-color: #2196F3;
+}
+/* hero */
+/* Наші переваги*/
+.section-title {
+    color: #212121;
+}
+.title{
+    color:#212121;
+}
+.section-team{
+    background-color:#F5F4FA;
+}
+/* Наші переваги */
+/* Підвал */
+.footer{
+    background-color: #2F303A;
+}
